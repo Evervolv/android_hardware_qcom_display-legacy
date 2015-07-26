@@ -90,6 +90,9 @@ enum {
 
     /* This flag is used for SECURE display usecase */
     GRALLOC_USAGE_PRIVATE_SECURE_DISPLAY  =       0x00002000,
+
+    /* This flag is set for WFD usecase */
+    GRALLOC_USAGE_PRIVATE_WFD             =       0x00200000,
 #else
     /* ADSP heap is deprecated, use only if using pmem */
     GRALLOC_USAGE_PRIVATE_ADSP_HEAP       =       GRALLOC_USAGE_PRIVATE_0,
